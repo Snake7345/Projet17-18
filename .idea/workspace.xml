@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff41f18d-e98f-4771-8e6c-feac5000e370" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Annexe/041217.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/css/page.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/head.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/images/2016-11_condition_salon_fr.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/images/bhpb_salon_fr.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/images/logo-ATC.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/images/vanderus.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/images/vw.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page1.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page2.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/css/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/images/2016-11_condition_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/images/bhpb_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/images/logo-ATC.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/images/vanderus.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/images/vw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/page1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/page2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Annexe + exo/Intro + exercice.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/css/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/head.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/images/2016-11_condition_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/images/bhpb_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/images/logo-ATC.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/images/vanderus.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/images/vw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/page1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1 Exercice 2 et S2 Exercice 1 (fini)/page2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/css/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/images/2016-11_condition_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/images/bhpb_salon_fr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/images/logo-ATC.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/images/vanderus.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/images/vw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/page1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/271117serie1et2/Correction/S1Exercice 1(fini)/page2.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,11 +86,6 @@
               <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Syllabus" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -115,12 +127,12 @@
       <workItem from="1513114494274" duration="69000" />
       <workItem from="1513284282440" duration="86000" />
       <workItem from="1513284523288" duration="7847000" />
-      <workItem from="1513292432045" duration="19000" />
+      <workItem from="1513292432045" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8049000" />
+    <option name="totallyTimeSpent" value="8246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

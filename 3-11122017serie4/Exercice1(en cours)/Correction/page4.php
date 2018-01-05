@@ -44,13 +44,74 @@ require_once "head.php" ;
                     <h2>Tableau indicé 1</h2>
                     <p>Exercice 1</p>
                     <?php
-                    $jourdelasemaine = array('Lundi', 'Mardi', 'Mercredi','Jeudi','Vendredi', 'Samedi', 'Dimanche')
 
+
+                    // $NbrLigne : le nombre de lignes
+                    // $NbrCol : le nombre de colonnes : calcul automatique
+                    // --------------------------------
+                    // (exemple)
+                    $NbrLigne = 7;
+                    $jourdelasemaine = array('Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche');
+                    // --------------------------------
+                    // $NbreData : le nombre de données à afficher
+                    $NbreData = count($jourdelasemaine);
+                    // --------------------------------
+                    $NbrCol = 0;
+                    // affichage
+                    if ($NbreData != 0)
+                    {
+                        $cpt1 = 0; // indice du tableau
+                        ?>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <?php
+                                while ($cpt1 < $NbreData)
+                                {
+                                    ?>
+                                    <td valign="top">
+                                    <table border>
+                                    <?php
+                                    for ($cpt2=1; $cpt2<=$NbrLigne; $cpt2++)
+                                     {
+                                        if ($cpt1 < $NbreData)
+                                        {
+                                            ?>
+                                            <tr>
+                                                <td>
+                                                    <?php
+                                                    // -------------------------
+                                                    // DONNEES A AFFICHER dans la cellule
+                                                    echo $jourdelasemaine[$cpt1];
+                                                    // -------------------------
+                                                    ?>
+                                                </td>
+                                            </tr>
+                                            <?php
+                                            $cpt1++;
+                                        }
+                                        if ($cpt2 == $NbrLigne)
+                                        {
+                                            ?>
+                                            </table>
+                                            </td>
+                                            <?php
+                                        }
+                                    }
+                                    $NbrCol++;
+                                }
+                                ?>
+                            </tr>
+                            <tbody>
+                        </table>
+                        <?php
+                    }
+                    else
+                        {
+                        ?>	pas de données à afficher
+                        <?php
+                        }
                     ?>
-
-
-
-
                 </article>
 
                 <article class="col-sm-4">

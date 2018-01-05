@@ -24,7 +24,7 @@ require_once "head.php" ;
             <li><a href="Page1.php">Home</a></li>
             <li><a href="Page2.php">Me contacter</a></li>
             <li class="active"><a href="Page3.php">Resultat</a></li>
-            <li><a href="page4.php">Tableaux</a></li>
+            <li><a href="Page4.php">Tableaux</a></li>
         </ul>
     </div>
 </nav>

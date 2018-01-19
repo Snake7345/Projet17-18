@@ -4,20 +4,6 @@
 $soustitre = "Page d'accueil";
 require "head.php" ;
 ?>
-<body>
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="Page1.php">Mon Portfolio</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="Page1.php">Home</a></li>
-				<li><a href="Page2.php">Me contacter</a></li>
-                <li><a href="Page3.php">Resultat</a></li>
-                <li><a href="Page4.php">Tableaux</a></li>
-			</ul>
-		</div>
-	</nav>
 	<div class="container-fluid">
 		<div class="row">
 			<header id="header" class="col-lg-10 offset-3">

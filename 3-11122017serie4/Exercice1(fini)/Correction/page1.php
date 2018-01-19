@@ -2,9 +2,8 @@
 <html>
 <?php
 $soustitre = "Page d'accueil";
-require_once "head.php" ;
+require "head.php" ;
 ?>
-<?php require_once "head.php" ; ?>
 <body>
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">

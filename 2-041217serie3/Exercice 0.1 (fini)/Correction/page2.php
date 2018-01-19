@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <?php
 $soustitre = "Me trouver";
-require_once "head.php" ;
+require "head.php" ;
 ?>
 <body>
 	<nav class="navbar navbar-inverse">

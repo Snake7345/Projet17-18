@@ -92,7 +92,6 @@ require "head.php" ;
 
                         $tablignes[$cpt] = "Ceci est la ligne n°".$cpt;
 
-
                     }
                     echo'<tr><td>'."#".'</td><td>'."Libellé".'</td></tr>';
                     $cpt2 = 0;

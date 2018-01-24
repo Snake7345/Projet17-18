@@ -37,19 +37,19 @@ echo"
     <p>
         <label for=\"Nom\">* Votre nom :</label>
         <br/>
-        <input type=\"text\" placeholder='Nom,prénom' name=\"Nom\" id=\"Nom\" />
+        <input type=\"text\" placeholder='Nom,prénom' name=\"Nom\" id=\"Nom\" required/>
 
         <br />
         <label for=\"Email\">* Votre email :</label>
         <br/>
-        <input type=\"text\" placeholder='Votre mail ici' name=\"Email\" id=\"Email\" />
+        <input type=\"text\" placeholder='Votre mail ici' name=\"Email\" id=\"Email\" required/>
         <br />
         
         <label for=\"Jesuis1\">Je suis :</label>
         <br/>
         <select name=\"Jesuis2\">
-        <option value=\"Part\">Particulier</option>
-        <option value=\"Prof\">Professionnel</option>
+        <option value=\"Part.\">Particulier</option>
+        <option value=\"Prof.\">Professionnel</option>
         </select>
         <br/>
         
@@ -66,10 +66,58 @@ echo"
 </form>
 ";
 }
+// Récupération + vérification des données + affichage des données
 else
+{
+    $nom=$_POST['Nom'];
+    $email=$_POST['Email'];
+    $jesuis=$_POST['Jesuis2'];
+    $message=$_POST['Message'];
+    if (isset($_POST['Newsletter']))
+        $newsletter = 'Oui';
+    else
+        $newsletter = 'Non';
+
+    echo $nom;
+    echo "<br/>";
+    echo $email;
+    echo "<br/>";
+    echo $jesuis;
+    echo "<br/>";
+    echo $message;
+    echo "<br/>";
+    echo $newsletter;
+
+}
+
+/* Test a faire sur l'adresse mail
+ // $email = 'test'; // test avec une chaine qui n'est pas une adresse email
+    $email = 'test@example.com'; // test avec une chaine qui est une adresse email
+
+// Vérifie si la chaine ressemble à un email
+    if (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $email))
     {
-        'Votre fichier a déjà été envoyé'
+        echo 'Cet email est correct.';
     }
+    else
+    {
+        echo 'Cet email a un format non adapté.';
+    }
+*/
+
+/* 'Votre fichier a déjà été envoyé';
+$nom=$_POST['Nom'];
+$email=$_POST['Email'];
+$jesuis=$_POST['Jesuis2'];
+$message=$_POST['Message'];
+$newsletter=$_POST['Newsletter'];
+
+echo $nom;
+echo $email;
+echo $jesuis;
+echo $message;
+echo $newsletter;
+*/
 
 
 

@@ -35,7 +35,7 @@ require "head.php" ;
             <div class="alert" alert-danger">
                 <?= implode('<br>', $_SESSION['errors']) ?>
             </div>
-        <?php endif; ?>
+        <?php unset($_SESSION['errors']); endif; ?>
 
 <?php
 

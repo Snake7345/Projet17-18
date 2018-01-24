@@ -10,7 +10,7 @@
 
 $errors = [];
 
-if (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $_POST['Email']))
+if (filter_var($_POST['Email'], FILTER_VALIDATE_EMAIL))
 {
     echo "";
 }
@@ -26,6 +26,10 @@ if(!array_key_exists('Email',$_POST)|| $_POST['Email'] == '')
 if(!array_key_exists('Nom',$_POST)|| $_POST['Nom'] == '')
 {
     $errors['Nom']="Vous n'avez pas renseigne votre Nom";
+}
+if(!array_key_exists('Message',$_POST)|| $_POST['Message'] == '')
+{
+    $errors['Message']="Vous n'avez pas renseigne votre Message";
 }
 
 // Si il n'y a pas d'erreurs alors on affiche si pas on réaffiche la page du formulaire

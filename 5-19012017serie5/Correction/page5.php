@@ -12,7 +12,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <?php
-$soustitre = "Résultat";
+$soustitre = "Resultat";
 require "head.php" ;
 ?>
 <div class="container-fluid">
@@ -47,7 +47,7 @@ require "head.php" ;
                     <div class=\"col-md-6\">
                         <div class=\"form-group\">
                             <label for=\"Nom\">* Votre nom :</label>
-                            <input type=\"text\" placeholder='Nom,prénom' name=\"Nom\" id=\"Nom\" class=\"form-control\" required/>
+                            <input type=\"text\" placeholder='Nom,prénom' name=\"Nom\" id=\"Nom\" class=\"form-control\"  required/>
                         </div>
                     </div>
                     <div class=\"col-md-6\">
@@ -86,6 +86,12 @@ require "head.php" ;
                             <button type =\"submit\" class=\"btn btn-primary\">Envoyer</button>
                 </div>
             </form>
+            ";
+        ?>
+            <h2>Debug : </h2>
+            <?=var_dump($_SESSION); ?>
+<?php
+    echo"
         </div>
     </div>
         

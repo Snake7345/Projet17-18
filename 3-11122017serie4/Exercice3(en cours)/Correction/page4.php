@@ -106,7 +106,7 @@ require "head.php" ;
 
                     <?php
 
-                    $day = array
+                    $dayactivite = array
                     (
                             array("Lundi","Ecole"),
                             array("Mardi","Ecole"),
@@ -131,10 +131,10 @@ require "head.php" ;
                     {
 
                         echo '<tr><td>';
-                        echo $day[$cpt3][0];
+                        echo $dayactivite[$cpt3][0];
                         echo '</td>';
                         echo '<td>';
-                        echo $day[$cpt3][1];
+                        echo $dayactivite[$cpt3][1];
                         echo '</td></tr>';
                     }
                     echo '</table>'

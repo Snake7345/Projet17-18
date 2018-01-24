@@ -10,71 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-720">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page4.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-              <folding>
-                <element signature="e#1180#1214#0#PHP" expanded="true" />
-                <marker date="1515168074522" expanded="true" signature="2005:4061" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2041:4021" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2074:3992" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2297:3712" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2349:3662" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2707:3311" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="2760:3261" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="4028:4053" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="4367:4484" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="4528:4644" ph="..." />
-                <marker date="1515168074522" expanded="true" signature="4715:4772" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,6 +30,10 @@
         <option value="$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php" />
         <option value="$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
         <option value="$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php" />
+        <option value="$PROJECT_DIR$/5-19012017serie5/Correction/html.html" />
+        <option value="$PROJECT_DIR$/5-19012017serie5/Correction/css/page.css" />
+        <option value="$PROJECT_DIR$/5-19012017serie5/Correction/page5.php" />
+        <option value="$PROJECT_DIR$/3-11122017serie4/Exercice3(en cours)/Correction/page4.php" />
       </list>
     </option>
   </component>
@@ -98,7 +45,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1282" />
+    <option name="x" value="890" />
     <option name="y" value="6" />
     <option name="width" value="1037" />
     <option name="height" value="1025" />
@@ -135,6 +82,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,33 +93,74 @@
             <path>
               <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="3-11122017serie4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="1-271117serie1et2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="3-11122017serie4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Exercice1(en cours)" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="3-11122017serie4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Exercice1(en cours)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Annexe + consigne" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="3-11122017serie4" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Exercice1(en cours)" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="1-271117serie1et2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="1-271117serie1et2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="S1Exercice 1(fini)" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2-041217serie3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2-041217serie3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exercice 0.1 (fini)" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2-041217serie3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exercice 0.1 (fini)" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2-041217serie3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exercice 1 (fini)" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2-041217serie3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exercice 1 (fini)" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="5-19012017serie5" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="5-19012017serie5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="5-19012017serie5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +169,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,25 +207,28 @@
       <workItem from="1514683871531" duration="218000" />
       <workItem from="1514684691036" duration="3153000" />
       <workItem from="1515163777375" duration="4311000" />
+      <workItem from="1516743232640" duration="7068000" />
+      <workItem from="1516750620015" duration="1700000" />
+      <workItem from="1516752444421" duration="526000" />
+      <workItem from="1516753008543" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16901000" />
+    <option name="totallyTimeSpent" value="26221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -243,6 +236,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -253,87 +247,71 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="67" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/head.php">
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <element signature="e#1180#1214#0#PHP" expanded="true" />
-            <marker date="1515168074522" expanded="true" signature="2005:4061" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2041:4021" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2074:3992" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2297:3712" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2349:3662" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2707:3311" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2760:3261" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4028:4053" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4367:4484" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4528:4644" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4715:4772" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="530:1572" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1231" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1240" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1347" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1348" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1371" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1498" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="975:1099" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1516752946950" expanded="true" signature="530:1572" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1231" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1240" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1347" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1348" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1371" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1498" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="975:1099" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1516752946950" expanded="true" signature="530:1572" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1231" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1240" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1347" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1348" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1371" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1498" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="975:1099" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/head.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page2.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/css/page.css" />
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page1.php" />
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/head.php" />
@@ -345,63 +323,127 @@
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/css/page.css" />
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 3 (en cours)/Correction/page3.php" />
     <entry file="file://$PROJECT_DIR$/041217serie3/Exercice 4 (fini)/Correction/page3.php" />
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/css/page.css">
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/css/page.css" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/head.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page2.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php" />
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php" />
+    <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/page2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/head.php">
+    <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Annexe + exo/Examen de décembre 2017 utile pour l'exercice/page1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page2.php">
+    <entry file="file://$PROJECT_DIR$/2-041217serie3/Exercice 0.1 (fini)/Correction/page2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page1.php">
+    <entry file="file://$PROJECT_DIR$/2-041217serie3/Exercice 1 (fini)/Correction/page2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page3.php">
+    <entry file="file://$PROJECT_DIR$/2-041217serie3/Exercice 1 (fini)/Correction/page3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice1(en cours)/Correction/page4.php">
+    <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Correction/S1Exercice 1(fini)/page2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Correction/S1Exercice 1(fini)/page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-041217serie3/Exercice 0.1 (fini)/Correction/page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-041217serie3/Exercice 0.1 (fini)/Correction/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/html.html" />
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="70" column="40" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
           <folding>
-            <element signature="e#1180#1214#0#PHP" expanded="true" />
-            <marker date="1515168074522" expanded="true" signature="2005:4061" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2041:4021" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2074:3992" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2297:3712" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2349:3662" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2707:3311" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="2760:3261" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4028:4053" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4367:4484" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4528:4644" ph="..." />
-            <marker date="1515168074522" expanded="true" signature="4715:4772" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="530:1572" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1231" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1240" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1347" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1348" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1371" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="538:1498" ph="..." />
+            <marker date="1516752946950" expanded="true" signature="975:1099" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-11122017serie4/Exercice3(en cours)/Correction/page4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="126" column="33" lean-forward="false" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -45,33 +45,32 @@ if(!empty($errors))
     $_SESSION['inputs'] = $_POST;
     header('Location: page5.php');
 }
-else
-    {
-        $nom=$_POST['Nom'];
-        $email=$_POST['Email'];
-        $jesuis=$_POST['Jesuis2'];
-        $message=$_POST['Message'];
-        if (isset($_POST['Newsletter'])) {
-            $newsletter = 'Oui';
-        }
-        else {
-            $newsletter = 'Non';
-        }
-        echo "Votre nom : ";
-        echo $nom;
-        echo "<br/>";
-        echo "Votre email : ";
-        echo $email;
-        echo "<br/>";
-        echo "Vous etes : ";
-        echo $jesuis;
-        echo "<br/>";
-        echo "Votre message : ";
-        echo $message;
-        echo "<br/>";
-        echo "Newsletter : ";
-        echo $newsletter;
-    }
+else {
 
+    $nom = $_POST['Nom'];
+    $email = $_POST['Email'];
+    $jesuis = $_POST['Jesuis2'];
+    $message = $_POST['Message'];
+    if (isset($_POST['Newsletter'])) {
+        $newsletter = 'Oui';
+    } else {
+        $newsletter = 'Non';
+    }
+    echo "Votre nom : ";
+    echo $nom;
+    echo "<br/>";
+    echo "Votre email : ";
+    echo $email;
+    echo "<br/>";
+    echo "Vous etes : ";
+    echo $jesuis;
+    echo "<br/>";
+    echo "Votre message : ";
+    echo $message;
+    echo "<br/>";
+    echo "Newsletter : ";
+    echo $newsletter;
+    header('Location: page5.php');
+}
     var_dump($errors)
 ?>

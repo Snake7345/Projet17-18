@@ -19,86 +19,76 @@ require "head.php" ;
     <div class="row">
         <header id="header" class="col-lg-10 offset-3">
             <h1>Formulaire de contact</h1>
+
         </header>
     </div>
 </div>
 
 
-<?php
-    echo"
-    <div class=\"container\">
-        <div class=\"starter-template\">
-        
-        ";
-?>
+
+    <div class="container">
+        <div class="starter-template">
+
         <?php if(array_key_exists('errors',$_SESSION)) : ?>
             <div class="alert alert-danger">
                 <?= implode('<br>', $_SESSION['errors']) ?>
             </div>
-        <?php unset($_SESSION['errors']); endif; ?>
+        <?php endif; ?>
 
-<?php
-
-        echo"
-        
-        
-            <form method=\"POST\" action=\"post_contact.php\">
-                <div class=\"row\">
-                    <div class=\"col-md-6\">
-                        <div class=\"form-group\">
-                            <label for=\"Nom\">* Votre nom :</label>
-                            <input type=\"text\" placeholder='Nom,prénom' name=\"Nom\" id=\"Nom\" class=\"form-control\"  required/>
+            <form method="POST" action="post_contact.php">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Nom">* Votre nom :</label>
+                            <input type="text" placeholder='Nom,prénom' name="Nom" id="Nom" class="form-control" value="<?php isset($_SESSION['inputs']['Nom']) ?
+                                ($_SESSION['inputs']['Nom']) : '' ?>" required/>
                         </div>
                     </div>
-                    <div class=\"col-md-6\">
-                        <div class=\"form-group\">            
-                            <label for=\"Email\">* Votre email :</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Email">* Votre email :</label>
                             <br/>
-                            <input type=\"text\" placeholder='Votre mail ici' name=\"Email\" id=\"Email\" class=\"form-control\"required/>
+                            <input type="text" placeholder='Votre mail ici' name="Email" id="Email" class="form-control" value="<?php isset($_SESSION['inputs']['Email']) ?
+                                ($_SESSION['inputs']['Email']) : '' ?>" required/>
                             <br />
                         </div>
                     </div>
-                    <div class=\"col-md-6\">
-                        <div class=\"form-group\">            
-                            <label for=\"Jesuis1\">Je suis :</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Jesuis1">Je suis :</label>
                             <br/>
-                            <select name=\"Jesuis2\">
-                            <option value=\"Part.\">Particulier</option>
-                            <option value=\"Prof.\">Professionnel</option>
+                            <select name="Jesuis2">
+                            <option value="Part.">Particulier</option>
+                            <option value="Prof.">Professionnel</option>
                             </select>
                             <br/>
                     </div> 
                         </div>
-                    <div class=\"col-md-6\">
-                        <div class=\"form-group\">       
-                            <label for=\"message\">Votre Message :</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="message">Votre Message :</label>
                             <br/>
-                            <textarea id=\"Message\" name =\"Message\"placeholder='Votre message ici'></textarea>
+                            <textarea id="Message" name ="Message"placeholder='Votre message ici' > <?php isset($_SESSION['inputs']['Message']) ?
+                                    ($_SESSION['inputs']['Message']) : '' ?></textarea>
                             <br/>
                         </div>
                     </div>       
-                    <div class=\"col-md-6\">
-                        <div class=\"form-group\">   
-                            <input type=\"checkbox\" id=\"Newsletter\" name=\"Newsletter\" value=\"1\">
-                            <label for=\"Newsletter\">Souhaitez-vous vous abonner à la newsletter ?</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="checkbox" id="Newsletter" name="Newsletter" value="1">
+                            <label for="Newsletter">Souhaitez-vous vous abonner à la newsletter ?</label>
                         </div>
                     </div>           
-                            <button type =\"submit\" class=\"btn btn-primary\">Envoyer</button>
+                            <button type ="submit" class="btn btn-primary">Envoyer</button>
                 </div>
             </form>
-            ";
-        ?>
+
             <h2>Debug : </h2>
             <?=var_dump($_SESSION); ?>
-<?php
-    echo"
+
         </div>
     </div>
-        
-    ";
-    ?>
 <?php
-
 /* Test a faire sur l'adresse mail
  // $email = 'test'; // test avec une chaine qui n'est pas une adresse email
     $email = 'test@example.com'; // test avec une chaine qui est une adresse email
@@ -153,3 +143,8 @@ else
 ?>
 </body>
 </html>
+
+<?php
+unset($_SESSION['errors']);
+unset($_SESSION['inputs']);
+?>

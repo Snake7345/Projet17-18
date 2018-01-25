@@ -35,10 +35,6 @@ if(!array_key_exists('Nom',$_POST)|| $_POST['Nom'] == '')
 {
     $errors['Nom']= "Vous n'avez pas renseigne votre Nom";
 }
-if(!array_key_exists('Message',$_POST)|| $_POST['Message'] == '')
-{
-    $errors['Message']= "Vous n'avez pas renseigne votre Message";
-}
 
 // Si il n'y a pas d'erreurs alors on affiche si pas on réaffiche la page du formulaire
 
@@ -47,7 +43,7 @@ if(!empty($errors))
     session_start();
     $_SESSION['errors'] = $errors;
     $_SESSION['inputs'] = $_POST;
-    header('Location : page5.php');
+    header('Location: page5.php');
 }
 else
     {

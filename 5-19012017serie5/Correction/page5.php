@@ -2,149 +2,65 @@
 /**
  * Created by PhpStorm.
  * User: Axel
- * Date: 23/01/18
- * Time: 19:09
+ * Date: 02/02/18
+ * Time: 18:25
  */
+
+	$soustitre= "Formulaire";
+	require 'head.php' ;
+	$VarNom		= "";
+	$VarEmail	= "";
+	$Lst_err['NOM']="";
+	$Lst_err['EMAIL']="";
+
+	$VarDebutErr = '<p class="alert alert-warning">';
+	$VarFinErr = "</p>";
+	if(isset($_POST['NOM'])){
+		$VarNom=$_POST['NOM'];
+		if( !strstr($VarNom, ',' )) {
+			$Lst_err['NOM']=$VarDebutErr." Le nom et le prénom ne sont pas séparés par une virgule".$VarFinErr;
+		}
+	}
+	if(isset($_POST['EMAIL'])){
+		$VarEmail=$_POST['EMAIL'];
+		if( !strstr($VarEmail, '@' ) || !strstr($VarEmail, '.' ) ) {
+			$Lst_err['EMAIL']=$VarDebutErr." L' adresse Email ne contient pas d'@ ni de '.' ".$VarFinErr;
+		}
+	}
+	if($Lst_err['NOM']=='' && $Lst_err['EMAIL']=='' && $VarNom!=''){
+		$_SESSION['UTILISATEUR_NOM']=$VarNom	;
+		$_SESSION['UTILISATEUR_OK']=1	;
+
+	}
 ?>
-<?php
-session_start();
-?>
-<!DOCTYPE html>
-<html>
-<?php
-$soustitre = "Resultat";
-require "head.php" ;
-?>
-<div class="container-fluid">
-    <div class="row">
-        <header id="header" class="col-lg-10 offset-3">
-            <h1>Formulaire de contact</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<header id="header" class="col-lg-10 offset-3">
+				<h1>Mon Formulaire</h1>
+			</header>
+		</div>
+	</div>
+	<div class="container">
 
-        </header>
-    </div>
-</div>
+		<div class="row">
+			<section class="col-lg-10">
+				<div class="row">
+					<article class="col-sm-6">
+						<h2>Inscrivez-vous</h2>
+						<p>Inscrivez-vous ici pour ceçevoir chaque semaine votre comparatif!</p>
+						<!--<form action="http://dero-promsocatc.alwaysdata.net/index.php" method="post" accept-charset="utf-8">-->
+						<form action="page5.php" method="post" accept-charset="utf-8">
+							<p>Nom et prénom :<input type="text" name="NOM" value=<?php echo '"'.$VarNom.'"'; ?> placeholder="Nom, Prénom" required></p>
+							<?php if($Lst_err['NOM']!='') echo $Lst_err['NOM']; ?>
+							<p>Email :<input type="text" name="EMAIL" value=<?php echo '"'.$VarEmail.'"'; ?> placeholder="nom.prenom@gmail.com" ></p>
+							<?php if($Lst_err['EMAIL']!='') echo $Lst_err['EMAIL']; ?>
+							<p><input type="submit" name="" value="Envoyer"></p>
+						</form>
+					</article>
 
-
-
-    <div class="container">
-        <div class="starter-template">
-
-        <?php if(array_key_exists('errors',$_SESSION)) : ?>
-            <div class="alert alert-danger">
-                <?= implode('<br>', $_SESSION['errors']) ?>
-            </div>
-        <?php endif; ?>
-
-            <form method="POST" action="post_contact.php">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="Nom">* Votre nom :</label>
-                            <input type="text" placeholder='Nom,prénom' name="Nom" id="Nom" class="form-control" value="<?php isset($_SESSION['inputs']['Nom']) ?
-                                ($_SESSION['inputs']['Nom']) : '' ?>" required/>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="Email">* Votre email :</label>
-                            <br/>
-                            <input type="text" placeholder='Votre mail ici' name="Email" id="Email" class="form-control" value="<?php isset($_SESSION['inputs']['Email']) ?
-                                ($_SESSION['inputs']['Email']) : '' ?>" required/>
-                            <br />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="Jesuis1">Je suis :</label>
-                            <br/>
-                            <select name="Jesuis2">
-                            <option value="Part.">Particulier</option>
-                            <option value="Prof.">Professionnel</option>
-                            </select>
-                            <br/>
-                    </div> 
-                        </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="message">Votre Message :</label>
-                            <br/>
-                            <textarea id="Message" name ="Message"placeholder='Votre message ici' > <?php isset($_SESSION['inputs']['Message']) ?
-                                    ($_SESSION['inputs']['Message']) : '' ?></textarea>
-                            <br/>
-                        </div>
-                    </div>       
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="checkbox" id="Newsletter" name="Newsletter" value="1">
-                            <label for="Newsletter">Souhaitez-vous vous abonner à la newsletter ?</label>
-                        </div>
-                    </div>           
-                            <button type ="submit" class="btn btn-primary">Envoyer</button>
-                </div>
-            </form>
-
-            <h2>Debug : </h2>
-            <?=var_dump($_SESSION); ?>
-
+				</div>
         </div>
     </div>
 <?php
-/* Test a faire sur l'adresse mail
- // $email = 'test'; // test avec une chaine qui n'est pas une adresse email
-    $email = 'test@example.com'; // test avec une chaine qui est une adresse email
-// Vérifie si la chaine ressemble à un email
-    if (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $email))
-    {
-        echo 'Cet email est correct.';
-    }
-    else
-    {
-        echo 'Cet email a un format non adapté.';
-    }
-*/
-/* 'Votre fichier a déjà été envoyé';
-$nom=$_POST['Nom'];
-$email=$_POST['Email'];
-$jesuis=$_POST['Jesuis2'];
-$message=$_POST['Message'];
-$newsletter=$_POST['Newsletter'];
-echo $nom;
-echo $email;
-echo $jesuis;
-echo $message;
-echo $newsletter;
-*/
-/*
-if (empty($_POST['Nom']) || empty($_POST['Email']) || empty($_POST['Jesuis2']) || empty($_POST['Message']) || empty($_POST['Newsletter']))
-{
-    echo "ERREUR : tous les champs n'ont pas ete renseignés.";
-}
-else
-{
-    $Nom=$_POST['Nom'];
-    $email=$_POST['Email'];
-    $jesuis=$_POST['Jesuis2'];
-    $message=$_POST['Message'];
-    $newsletter=$_POST['Newsletter'];
-    if($code==$nb_verif)
-    {
-        // envoyer un mail
-    }
-    else echo "ERREUR : le champ de verification....";
-}
-    //traitement des données reçues par le formulaire
-    $nom=$_POST['Nom'];
-    $email=$_POST['Email'];
-    $jesuis=$_POST['Jesuis2'];
-    $message=$_POST['Message'];
-    $newsletter=$_POST['Newsletter'];
-    echo"Votre message a été transmis";
-*/
-?>
-</body>
-</html>
-
-<?php
-unset($_SESSION['errors']);
-unset($_SESSION['inputs']);
+	require 'bas.php' ;
 ?>

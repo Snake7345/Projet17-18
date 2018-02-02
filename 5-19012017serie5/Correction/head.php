@@ -6,7 +6,9 @@
  * Time: 20:30
  */
 ?>
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,3 +35,10 @@
         </ul>
     </div>
 </nav>
+
+<?php if(isset($_SESSION['UTILISATEUR_OK']) && isset($_SESSION['UTILISATEUR_NOM'])){
+    echo 'Bienvenue '.$_SESSION['UTILISATEUR_NOM'];
+    echo '<form action="destroy.php" method="post" accept-charset="utf-8">';
+    echo '	<input type="submit" name="" value="Se déconnercter">';
+    echo '</form>';
+} ?>

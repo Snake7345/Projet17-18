@@ -10,22 +10,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="page2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Correction/S1Exercice 1(fini)/page2.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Personnage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/Personnage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-592">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page5.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
+      <file leaf-file-name="page4.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/page4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -141,6 +141,11 @@
               <item name="5-19012017serie5" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Serie06-Deguglielmo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,11 +215,12 @@
       <workItem from="1518016412197" duration="59000" />
       <workItem from="1518016619872" duration="471000" />
       <workItem from="1518017123331" duration="39000" />
+      <workItem from="1518197198552" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61223000" />
+    <option name="totallyTimeSpent" value="61629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -252,15 +258,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/post_contact.php" />
-    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -415,7 +412,7 @@
     <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/post_contact.php" />
     <entry file="file://$PROJECT_DIR$/1-271117serie1et2/Correction/S1Exercice 1(fini)/page2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -425,6 +422,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/page4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/Personnage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

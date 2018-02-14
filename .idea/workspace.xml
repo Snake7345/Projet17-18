@@ -14,18 +14,9 @@
       <file leaf-file-name="Personnage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/Personnage.php">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="4080">
-              <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-              <folding>
-                <element signature="e#3840#4084#0#PHP" expanded="false" />
-                <element signature="e#4085#4824#0#PHP" expanded="false" />
-              </folding>
-=======
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
             </state>
           </provider>
         </entry>
@@ -113,10 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-=======
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,31 +212,18 @@
       <workItem from="1516841517985" duration="114000" />
       <workItem from="1516892219678" duration="843000" />
       <workItem from="1516915005787" duration="2082000" />
-<<<<<<< HEAD
-      <workItem from="1518012735248" duration="480000" />
-      <workItem from="1518017043401" duration="179000" />
-=======
       <workItem from="1518016412197" duration="59000" />
       <workItem from="1518016619872" duration="471000" />
       <workItem from="1518017123331" duration="39000" />
       <workItem from="1518197198552" duration="406000" />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="61313000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-18" y="-18" width="3876" height="2076" extended-state="6" />
-    <editor active="true" />
-=======
     <option name="totallyTimeSpent" value="61629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -284,39 +258,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/post_contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3840#4084#0#PHP" expanded="false" />
-            <element signature="e#4085#4824#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
-    <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding>
-            <element signature="e#3840#4084#0#PHP" expanded="false" />
-            <element signature="e#4085#4824#0#PHP" expanded="false" />
-          </folding>
-=======
           <folding />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
         </state>
       </provider>
     </entry>
@@ -324,14 +270,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding>
-            <element signature="e#3840#4084#0#PHP" expanded="false" />
-            <element signature="e#4085#4824#0#PHP" expanded="false" />
-          </folding>
-=======
           <folding />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
         </state>
       </provider>
     </entry>
@@ -339,14 +278,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-          <folding>
-            <element signature="e#3840#4084#0#PHP" expanded="false" />
-            <element signature="e#4085#4824#0#PHP" expanded="false" />
-          </folding>
-=======
           <folding />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
         </state>
       </provider>
     </entry>
@@ -488,18 +420,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5-19012017serie5/Correction/page5.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="4080">
-          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-          <folding>
-            <element signature="e#3840#4084#0#PHP" expanded="false" />
-            <element signature="e#4085#4824#0#PHP" expanded="false" />
-          </folding>
-=======
         <state relative-caret-position="434">
           <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
           <folding />
->>>>>>> 1354c9d523a87e3c3dad6ac66c234581db72148f
         </state>
       </provider>
     </entry>

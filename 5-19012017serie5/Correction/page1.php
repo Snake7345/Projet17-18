@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <?php
 $soustitre = "Page d'accueil";
 require "head.php" ;
@@ -44,7 +42,9 @@ require "head.php" ;
 			<aside class="col-lg-2">
 				<p>Contenu publicitaire</p>
 			</aside>
-		</div>
-	</div>
-</body>
-</html>
+
+        </div>
+    </div>
+<?php
+require 'bas.php' ;
+?>

@@ -7,8 +7,6 @@
  */
 ?>
 
-<!DOCTYPE html>
-<html>
 <?php
 $soustitre = "Résultat";
 require "head.php" ;
@@ -119,7 +117,9 @@ require "head.php" ;
         <aside class="col-lg-2">
             <p>Contenu publicitaire</p>
         </aside>
+
     </div>
 </div>
-</body>
-</html>
+<?php
+require 'bas.php' ;
+?>

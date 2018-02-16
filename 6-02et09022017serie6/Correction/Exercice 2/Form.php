@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: theba
  * Date: 09/02/18
- * Time: :14
+ * Time: 20:14
  */
 
 class Form
@@ -40,4 +40,14 @@ class Form
     {
 
     }
+
+    //Fonction qui permet de fermer le formulaire
+    public function endForm()
+    {
+        this->monForm.='</form>';
+
+	}
+
 }
+
+?>

@@ -30,9 +30,9 @@ require_once 'Personnage.php';
         <ul class="nav navbar-nav">
             <li><a href="Page1.php">Home</a></li>
             <li><a href="Page2.php">Me contacter</a></li>
-            <li><a href="Page3.php">Resultat</a></li>
-            <li><a href="Page4.php">Tableaux</a></li>
-            <li><a href="Page5.php">Les Sessions</a> </li>
+            <li><a href="Page3.php">S3Resultat</a></li>
+            <li><a href="Page4.php">S4Tableaux</a></li>
+            <li><a href="Page5.php">S5Les Sessions</a> </li>
             <li><a href="Page6.php">S6Les Classes</a> </li>
         </ul>
     </div>

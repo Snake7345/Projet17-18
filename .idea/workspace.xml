@@ -14,12 +14,9 @@
       <file leaf-file-name="Form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="408">
               <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="e#6#83#0#PHP" expanded="true" />
-                <marker date="1518809024542" expanded="true" signature="304:1080" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -27,8 +24,18 @@
       <file leaf-file-name="page6.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page6.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/page6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -109,8 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +181,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,11 +252,12 @@
       <workItem from="1518803608748" duration="35000" />
       <workItem from="1518803710203" duration="88000" />
       <workItem from="1518805444709" duration="4149000" />
+      <workItem from="1518821719179" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66511000" />
+    <option name="totallyTimeSpent" value="66611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -424,13 +432,6 @@
     <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/page4.php" />
     <entry file="file://$PROJECT_DIR$/Serie06-Deguglielmo/Personnage.php" />
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/Form.php" />
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/page6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/Personnage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-618">
@@ -443,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1326">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-227">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,21 +490,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/page6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="408">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#83#0#PHP" expanded="true" />
-            <marker date="1518809024542" expanded="true" signature="304:1080" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="646">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

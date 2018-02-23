@@ -14,7 +14,7 @@
       <file leaf-file-name="Form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="329">
               <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="89" />
               <folding />
             </state>
@@ -174,7 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -240,11 +240,12 @@
       <workItem from="1518821719179" duration="100000" />
       <workItem from="1519407407287" duration="71000" />
       <workItem from="1519407508145" duration="613000" />
+      <workItem from="1519408230868" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67295000" />
+    <option name="totallyTimeSpent" value="67767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -442,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="329">
           <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="89" />
           <folding />
         </state>

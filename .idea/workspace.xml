@@ -11,21 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Form.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page6.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page6.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -34,7 +24,7 @@
       <file leaf-file-name="page6.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/page6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="833">
               <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding />
             </state>
@@ -116,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,17 +164,10 @@
               <item name="Correction" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Exercice 2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Projet17-18WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet17-18WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Serie06-DeguglielmoAADAPTERETREGARDER" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,17 +238,18 @@
       <workItem from="1518803710203" duration="88000" />
       <workItem from="1518805444709" duration="4149000" />
       <workItem from="1518821719179" duration="100000" />
+      <workItem from="1519407407287" duration="71000" />
+      <workItem from="1519407508145" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66611000" />
+    <option name="totallyTimeSpent" value="67295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -436,63 +422,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-618">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Personnage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serie06-DeguglielmoAADAPTERETREGARDER/page4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serie06-DeguglielmoAADAPTERETREGARDER/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page4.php" />
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page3.php" />
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page2.php" />
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Personnage.php" />
+    <entry file="file://$PROJECT_DIR$/Serie06-DeguglielmoAADAPTERETREGARDER/page4.php" />
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page5.php" />
+    <entry file="file://$PROJECT_DIR$/Serie06-DeguglielmoAADAPTERETREGARDER/form.php" />
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 1/page6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="833">
           <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding />
         </state>
@@ -500,20 +442,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/6-02et09022017serie6/Correction/Exercice 2/page6.php" />
   </component>
   <component name="masterDetails">
     <states>

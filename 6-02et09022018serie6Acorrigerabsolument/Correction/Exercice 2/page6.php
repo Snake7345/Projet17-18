@@ -52,11 +52,11 @@ require "head.php" ;
 
                         <?php
 
-                        $Form1 = new Form("Formulaire", "form1", "post", "http://dero-promsocatc.alwaysdata.net/index.php");
-                        $Form1-> SetText("Name", "Name", "Name", "required", "Name", "NameOK");
-                        $Form1-> setEmail("Email", "Email", "Email", "required", "Email", "EmailOK");
-                        $Form1-> setSubmit("Envoyer", "OK");
-                        $Form1-> endForm();
+						$monFormulaire = new Form('Formulaire','post','http://dero-promsocatc.alwaysdata.net/index.php');
+						$monFormulaire->setText('NOM :','NOM','NOM','',true,'Entrez ici votre nom');
+						$monFormulaire->setEmail('Email :','EMAIL','EMAIL','',true,'nom.prenom@fournisseur.be');
+						$monFormulaire->setSubmit('VALIDER','Valider');
+						echo $monFormulaire->getForm();
 
                         ?>
 

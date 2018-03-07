@@ -187,7 +187,7 @@ require "head.php" ;
                             echo $Semainetabind[$cpt5][$cpt6][1];
                             echo '</td></tr>';
                         }
-                        
+
                     }
 
                     echo '</table>';

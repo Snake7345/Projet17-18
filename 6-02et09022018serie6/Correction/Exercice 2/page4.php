@@ -104,7 +104,7 @@ require "head.php" ;
 
                     <?php
 
-                    $day = array
+                    $dayactivite = array
                     (
                             array("Lundi","Ecole"),
                             array("Mardi","Ecole"),
@@ -129,24 +129,67 @@ require "head.php" ;
                     {
 
                         echo '<tr><td>';
-                        echo $day[$cpt3][0];
+                        echo $dayactivite[$cpt3][0];
                         echo '</td>';
                         echo '<td>';
-                        echo $day[$cpt3][1];
+                        echo $dayactivite[$cpt3][1];
                         echo '</td></tr>';
                     }
-                    echo '</table>'
+                    echo '</table>';
                     ?>
 
 
                 </article>
 
-                <article class="col-sm-4">
+                <article class="col-sm-6">
 
                     <h2>tableau indicé 52</h2>
                     <p>Exercice 3</p>
+                    <?php
+
+                    $Semainetabind = array();
+                    for($cpt4=0; $cpt4 < 52; $cpt4++)
+                    {
+                        $Semainetabind[$cpt4] = $dayactivite;
+                    }
+
+                    echo '<table border>';
+
+                    echo '<thead>';
+                    echo '<tr>';
+                    echo '<th>Semaine</th>';
+                    echo '<th>Jour</th>';
+                    echo '<th>Ce que je fais</th>';
+                    echo '</tr>';
+                    echo '</thead>';
 
 
+
+
+                    for($cpt5 = 0; $cpt5 < 52; $cpt5++)
+                    {
+                        $FirstRead = false;
+                        for($cpt6 = 0; $cpt6 < 7; $cpt6++)
+                        {
+                            echo '<tr><td>';
+                            if($FirstRead == false)
+                            {
+                                echo $cpt5 + 1;
+                                $FirstRead = true;
+                            }
+                            echo '</td>';
+                            echo '<td>';
+                            echo $Semainetabind[$cpt5][$cpt6][0];
+                            echo '</td>';
+                            echo '<td>';
+                            echo $Semainetabind[$cpt5][$cpt6][1];
+                            echo '</td></tr>';
+                        }
+
+                    }
+
+                    echo '</table>';
+                    ?>
 
 
                 </article>
@@ -155,8 +198,6 @@ require "head.php" ;
         <aside class="col-lg-2">
             <p>Contenu publicitaire</p>
         </aside>
-
-
     </div>
 </div>
 <?php

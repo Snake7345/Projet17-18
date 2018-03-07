@@ -137,7 +137,7 @@ require "head.php" ;
                         echo $dayactivite[$cpt3][1];
                         echo '</td></tr>';
                     }
-                    echo '</table>'
+                    echo '</table>';
                     ?>
 
 
@@ -147,6 +147,29 @@ require "head.php" ;
 
                     <h2>tableau indicé 52</h2>
                     <p>Exercice 3</p>
+                    <?php
+
+                    $Semainetabind = array();
+                    for($cpt4=0; $cpt4 < 52; $cpt4++)
+                    {
+                        $Semainetabind[$cpt4] = $dayactivite;
+                    }
+
+                    echo '<table border>';
+
+                    echo '<thead>';
+                    echo '<tr>';
+                    echo '<th>Semaine</th>';
+                    echo '<th>Jour</th>';
+                    echo '<th>Ce que je fais</th>';
+                    echo '</tr>';
+                    echo '</thead>';
+
+
+                    echo '</table>';
+
+                    ?>
+
 
 
 

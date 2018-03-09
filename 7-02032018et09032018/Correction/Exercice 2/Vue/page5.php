@@ -6,8 +6,6 @@
  * Time: 18:25
  */
 
-	$soustitre= "Formulaire";
-	require 'head.php' ;
 	$VarNom		= "";
 	$VarEmail	= "";
 	$Lst_err['NOM']="";
@@ -61,6 +59,3 @@
 				</div>
         </div>
     </div>
-<?php
-	require 'bas.php' ;
-?>

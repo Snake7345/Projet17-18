@@ -7,10 +7,6 @@
  */
 ?>
 
-<?php
-$soustitre = "Résultat";
-require "head.php" ;
-?>
 <div class="container-fluid">
     <div class="row">
         <header id="header" class="col-lg-10 offset-3">
@@ -200,6 +196,3 @@ require "head.php" ;
         </aside>
     </div>
 </div>
-<?php
-require 'bas.php' ;
-?>

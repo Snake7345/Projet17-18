@@ -6,8 +6,6 @@
  * Time: 19:56
  */
 
-$soustitre = "Personnage";
-require "head.php" ;
 ?>
     <div class="container-fluid">
         <div class="row">
@@ -71,6 +69,3 @@ require "head.php" ;
 
         </div>
     </div>
-<?php
-require 'bas.php' ;
-?>

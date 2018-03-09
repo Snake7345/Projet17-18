@@ -6,7 +6,7 @@
  * Time: 18:26
  */
 
-session_start();
+require '../control/core.php';
 session_destroy();
-require 'page1.php';
+require '../control/page1.php';
  ?>

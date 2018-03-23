@@ -6,7 +6,7 @@
  * Time: 17:51
  */
 ?>
-
+<?php // Affiche la page résultat du site internet ?>
 <div class="container-fluid">
     <div class="row">
         <header id="header" class="col-lg-10 offset-3">

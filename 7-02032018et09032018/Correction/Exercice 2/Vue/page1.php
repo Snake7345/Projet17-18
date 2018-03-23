@@ -1,4 +1,7 @@
-	<div class="container-fluid">
+
+<?php// Affiche la page d'accueil du site internet ?>
+
+<div class="container-fluid">
 		<div class="row">
 			<header id="header" class="col-lg-10 offset-3">
 				<h1>Portfolio:</h1>

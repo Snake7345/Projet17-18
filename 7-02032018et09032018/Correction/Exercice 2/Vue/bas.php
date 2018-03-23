@@ -6,6 +6,8 @@
  * Time: 18:21
  */
 ?>
+
+<?/* Cette page reprend le bas de la page */?>
 <div class="container-fluid">
     <div class="row">
         <footer class="col-lg-12">

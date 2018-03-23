@@ -5,7 +5,11 @@
  * Date: 09/02/18
  * Time: 20:14
  */
+?>
 
+<?// Cette page  ?>
+
+<?php
 
 class form{
     private $monForm = '';

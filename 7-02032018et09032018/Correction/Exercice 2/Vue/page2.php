@@ -1,4 +1,6 @@
-	<div class="container-fluid">
+<?php// Affiche la page "me contacter" ?>
+
+<div class="container-fluid">
 		<div class="row">
 			<header id="header" class="col-lg-10 offset-3">
 				<h1>Me trouver</h1>

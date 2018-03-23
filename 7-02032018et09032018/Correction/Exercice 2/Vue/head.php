@@ -6,6 +6,9 @@
  * Time: 20:30
  */
 ?>
+
+<?// Cette page sert à afficher le haut de la page et gère la session de l'utlisateur ?>
+
 <?php
 require_once 'Personnage.php';
 require_once 'Form.php';

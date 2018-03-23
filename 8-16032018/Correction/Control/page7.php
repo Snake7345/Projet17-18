@@ -10,7 +10,7 @@
 <?php
 $soustitre= 'Affichagetable';
 require_once '../control/core.php' ;
-require '../vue/haut.php' ;
+require '../vue/head.php' ;
 ?>
 
 

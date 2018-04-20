@@ -15,5 +15,10 @@ session_start();
 require_once '../Control/Personnage.php';
 require_once '../Vue/Form.php';
 require_once '../Model/model.php';
+require_once '../control/Utilisateur.php';
+if(!isset($_SESSION['UTILISATEUR_NOM']) && !strpos($_SERVER['REQUEST_URI'], '/Control/login.php') ){
+    header("Location: ../Control/login.php");
+}
+
 
 ?>

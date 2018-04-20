@@ -25,26 +25,32 @@ require_once 'Form.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="Page1.php">Mon Portfolio</a>
-        </div>
-        <ul class="nav navbar-nav">
-            <li><a href="Page1.php">Home</a></li>
-            <li><a href="Page2.php">Me contacter</a></li>
-            <li><a href="Page3.php">Resultat</a></li>
-            <li><a href="Page4.php">Tableaux</a></li>
-            <li><a href="Page5.php">Les Sessions</a> </li>
-            <li><a href="Page6.php">S6Les Classes</a> </li>
-            <li><a href="Page7.php">S8table test</a></li>
-        </ul>
-    </div>
-</nav>
 
-<?php if(isset($_SESSION['UTILISATEUR_OK']) && isset($_SESSION['UTILISATEUR_NOM'])){
-    echo 'Bienvenue '.$_SESSION['UTILISATEUR_NOM'];
-    echo '<form action="destroy.php" method="post" accept-charset="utf-8">';
-    echo '	<input type="submit" name="" value="Se déconnercter">';
-    echo '</form>';
-} ?>
+<?php
+if(isset($_SESSION['UTILISATEUR_OK']) && $_SESSION['UTILISATEUR_OK'] == 1 && isset($_SESSION['UTILISATEUR_NOM'])){
+    echo '<nav class="navbar navbar-inverse" id="haut">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" "Page1.php">Mon Portfolio</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li><a href="Page1.php">Home</a></li>
+                            <li><a href="Page2.php">Me contacter</a></li>
+                            <li><a href="Page3.php">Resultat</a></li>
+                            <li><a href="Page4.php">Tableaux</a></li>
+                            <li><a href="Page5.php">Les Sessions</a> </li>
+                            <li><a href="Page6.php">S6Les Classes</a> </li>
+                            <li><a href="Page7.php">S8table test</a></li>
+						</ul>
+					</div>
+				</nav>';
+    Echo '<h2> Bonjour '.$_SESSION['UTILISATEUR_NOM'].'
+
+				<form action="destroy.php" method="post" accept-charset="utf-8">
+					<input type="submit" name="" value="Se déconnecter">
+
+				</form></h2>';
+
+}
+
+?>

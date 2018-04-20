@@ -8,4 +8,5 @@
 	$Tabletest->read();
 	require '../vue/index.php';
 	require '../vue/bas.php';
+
 ?>

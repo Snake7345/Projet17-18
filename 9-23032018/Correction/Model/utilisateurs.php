@@ -1,9 +1,7 @@
 <?php
 class utilisateurs extends Model{
-    var $table = "utilisateurs";
-    var $PK = "utilisateur";
-    var $admin;
-    var $actif;
+    protected $table = "utilisateurs";
+    protected $PK = "utilisateur";
 }
 
 ?>

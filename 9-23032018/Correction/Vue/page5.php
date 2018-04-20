@@ -45,9 +45,9 @@
 				<div class="row">
 					<article class="col-sm-6">
 						<h2>Inscrivez-vous</h2>
-						<p>Inscrivez-vous ici pour ceçevoir chaque semaine votre comparatif!</p>
+						<p>Inscrivez-vous ici pour recevoir chaque semaine votre comparatif!</p>
 						<!--<form action="http://dero-promsocatc.alwaysdata.net/index.php" method="post" accept-charset="utf-8">-->
-						<form action="page5.php" method="post" accept-charset="utf-8">
+    					<form action="page5.php" method="post" accept-charset="utf-8">
 							<p>Nom et prénom :<input type="text" name="NOM" value=<?php echo '"'.$VarNom.'"'; ?> placeholder="Nom, Prénom" required></p>
 							<?php if($Lst_err['NOM']!='') echo $Lst_err['NOM']; ?>
 							<p>Email :<input type="text" name="EMAIL" value=<?php echo '"'.$VarEmail.'"'; ?> placeholder="nom.prenom@gmail.com" ></p>

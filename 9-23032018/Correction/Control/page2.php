@@ -9,7 +9,7 @@
 
 <?php
 $soustitre = "Me trouver";
-require '../control/core.php' ;
+require '../Control/core.php' ;
 require_once "../Vue/head.php";
 require_once "../Vue/page2.php";
 require_once "../Vue/bas.php";

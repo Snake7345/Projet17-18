@@ -9,7 +9,7 @@
 
 <?php
 $soustitre = "Personnage";
-require '../control/core.php' ;
+require '../Control/core.php' ;
 require_once "../Vue/head.php";
 
 $perso1= new Personnage(50,5);

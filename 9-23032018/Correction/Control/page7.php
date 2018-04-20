@@ -9,13 +9,13 @@
 
 <?php
 $soustitre= 'Affichagetable';
-require_once '../control/core.php' ;
+require_once '../Control/core.php' ;
 require '../vue/head.php' ;
 ?>
 
 
 <?php
-require '../control/TABLETEST_TAB.php' ;
+require '../Control/TABLETEST_TAB.php' ;
 ?>
 
 <?php

@@ -24,7 +24,7 @@ class Model{
             die();
         }
     }
-    public function read($fields=null){
+    public function read($fields=null, $where=''){
 
         if($fields==null){
             $fields = '*';

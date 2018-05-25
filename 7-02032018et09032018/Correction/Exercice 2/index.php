@@ -1,5 +1,6 @@
 <?php
-
+header('Location: control/page1.php');
+/*
 	require "core.php";
 	require "../Vue/head.php";
 
@@ -8,4 +9,5 @@
 	$Tabletest->read();
 	require '../vue/index.php';
 	require '../vue/bas.php';
+*/
 ?>

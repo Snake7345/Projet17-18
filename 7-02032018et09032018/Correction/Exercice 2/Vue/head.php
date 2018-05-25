@@ -9,10 +9,6 @@
 
 <?// Cette page sert à afficher le haut de la page et gère la session de l'utlisateur ?>
 
-<?php
-require_once 'Personnage.php';
-require_once 'Form.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,6 +40,6 @@ require_once 'Form.php';
 <?php if(isset($_SESSION['UTILISATEUR_OK']) && isset($_SESSION['UTILISATEUR_NOM'])){
     echo 'Bienvenue '.$_SESSION['UTILISATEUR_NOM'];
     echo '<form action="destroy.php" method="post" accept-charset="utf-8">';
-    echo '	<input type="submit" name="" value="Se déconnercter">';
+    echo '	<input type="submit" name="" value="Se déconnecter">';
     echo '</form>';
 } ?>

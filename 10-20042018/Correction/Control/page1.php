@@ -10,8 +10,8 @@
 <?php
 $soustitre = "Page d'accueil";
 require '../Control/core.php' ;
-require_once "../Vue/head.php";
-require_once "../Vue/page1.php";
-require_once "../Vue/bas.php";
+require '../Vue/head.php';
+require '../Vue/page1.php';
+require '../Vue/bas.php';
 
 ?>

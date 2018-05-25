@@ -22,13 +22,14 @@
 						<h2>Inscrivez-vous</h2>
 						<p>Inscrivez-vous ici pour recevoir chaque semaine votre comparatif!</p>
 						<!--<form action="http://dero-promsocatc.alwaysdata.net/index.php" method="post" accept-charset="utf-8">-->
-    					<form action="page5.php" method="post" accept-charset="utf-8">
-							<p>Nom et prénom :<input type="text" name="NOM" value=<?php echo '"'.$VarNom.'"'; ?> placeholder="Nom, Prénom" required></p>
-							<?php if($Lst_err['NOM']!='') echo $Lst_err['NOM']; ?>
-							<p>Email :<input type="text" name="EMAIL" value=<?php echo '"'.$VarEmail.'"'; ?> placeholder="nom.prenom@gmail.com" ></p>
-							<?php if($Lst_err['EMAIL']!='') echo $Lst_err['EMAIL']; ?>
-							<p><input type="submit" name="" value="Envoyer"></p>
-						</form>
+                        <form action="page5.php" method="post" accept-charset="utf-8">
+                            <p>Nom :<input type="text" name="NOM" value= <?php echo '"'.$VarNom.'"'; ?> placeholder="Entrez votre nom" ></p>
+                            <?php echo $VarErrNom ?>
+                            <p>Email :<input type="text" name="EMAIL" value= <?php echo '"'.$VarEmail.'"'; ?> placeholder="nom.prenom@gmail.com" ></p>
+                            <?php echo $VarErrEmail ?>
+                            <p><input type="submit" name="" value="Envoyer"></p>
+                        </form>
+
 					</article>
 
 				</div>

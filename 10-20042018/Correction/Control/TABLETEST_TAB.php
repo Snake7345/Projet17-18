@@ -8,7 +8,7 @@
 ?>
 
 <?php
-    require_once '../control/core.php' ;
+    require_once '../Control/core.php' ;
 ?>
 
 
@@ -32,6 +32,6 @@
 
     $Tabletest=Model::load("tabletest");
     $Tabletest->read(null,$where);
-    require '../vue/TABLETEST_TAB.php';
+    require '../Vue/TABLETEST_TAB.php';
 
 ?>

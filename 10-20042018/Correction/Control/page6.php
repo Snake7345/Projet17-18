@@ -10,7 +10,7 @@
 <?php
 $soustitre = "Personnage";
 require '../Control/core.php' ;
-require_once "../Vue/head.php";
+require '../Vue/head.php';
 
 $perso1= new Personnage(50,5);
 $perso2= new Personnage(100,23);
@@ -25,8 +25,8 @@ $monFormulaire->addEmail('Email :','EMAIL','EMAIL','',true,'nom.prenom@fournisse
 $monFormulaire->addSubmit('VALIDER','Valider');
 
 
-require_once "../Vue/page6.php";
-require_once "../Vue/bas.php";
+require'../Vue/page6.php';
+require'../Vue/bas.php';
 
 
 ?>

@@ -11,8 +11,8 @@
 
 <?php
 
-require '../control/core.php';
+require '../Control/core.php';
 session_destroy();
-require '../control/page1.php';
+require '../Control/page1.php';
 
 ?>

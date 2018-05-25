@@ -9,10 +9,6 @@
 
 <?// Cette page sert à afficher le haut de la page et gère la session de l'utlisateur ?>
 
-<?php
-require_once 'Personnage.php';
-require_once 'Form.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,9 +22,8 @@ require_once 'Form.php';
 </head>
 <body>
 
-<?php
-if(isset($_SESSION['UTILISATEUR_OK']) && $_SESSION['UTILISATEUR_OK'] == 1 && isset($_SESSION['UTILISATEUR_NOM'])){
-    echo '<nav class="navbar navbar-inverse" id="haut">
+
+    <nav class="navbar navbar-inverse" id="haut">
 					<div class="container-fluid">
 						<div class="navbar-header">
 							<a class="navbar-brand" "Page1.php">Mon Portfolio</a>
@@ -44,13 +39,15 @@ if(isset($_SESSION['UTILISATEUR_OK']) && $_SESSION['UTILISATEUR_OK'] == 1 && iss
 						</ul>
 					</div>
 				</nav>';
-    Echo '<h2> Bonjour '.$_SESSION['UTILISATEUR_NOM'].'
-
+    <?php
+        if(isset($_SESSION['UTILISATEUR_OK']) && $_SESSION['UTILISATEUR_OK'] == 1 && isset($_SESSION['UTILISATEUR_NOM']))
+        {
+        Echo '<h2> Bonjour '.$_SESSION['UTILISATEUR_NOM'].'
 				<form action="destroy.php" method="post" accept-charset="utf-8">
 					<input type="submit" name="" value="Se déconnecter">
 
 				</form></h2>';
 
-}
+        }
 
 ?>

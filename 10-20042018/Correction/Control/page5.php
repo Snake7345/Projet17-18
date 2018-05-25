@@ -10,7 +10,7 @@
 <?php
 $soustitre= "Formulaire";
 require '../Control/core.php' ;
-require_once "../Vue/head.php";
+require '../Vue/head.php';
 
 $VarNom 	 ="";
 $VarEmail 	 ="";
@@ -46,7 +46,7 @@ if($VarErrNom=='' && $VarErrEmail=='' && $VarNom!=''){
     $_SESSION['UTILISATEUR_OK'] 	=  1;
 }
 
-require_once "../Vue/page5.php";
-require_once "../Vue/bas.php";
+require '../Vue/page5.php';
+require '../Vue/bas.php';
 
 ?>

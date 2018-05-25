@@ -1,7 +1,7 @@
 <?php
 
 
-header('Location: control/page1.php');
+header('Location: Control/page1.php');
 /*
 	require "core.php";
 	require "../Vue/head.php";

@@ -10,9 +10,9 @@
 <?php
 $soustitre = "Résultat";
 require '../Control/core.php' ;
-require_once "../Vue/head.php";
-require_once "../Vue/page3.php";
-require_once "../Vue/bas.php";
+require '../Vue/head.php';
+require '../Vue/page3.php';
+require '../Vue/bas.php';
 
 ?>
 
